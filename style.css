@@ -1,0 +1,176 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: url("https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg");
+  background-size: cover;  
+
+}
+
+#Title{
+  background-color: #6642f5;
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.white{
+  color:white;
+}
+
+.card{
+margin-top:-20px
+}
+
+.font{
+  font-family: 'Anton', sans-serif;
+}
+
+.big{
+  font-size: 50px;
+}
+
+.center{
+  text-align: center;
+}
+
+.line{
+  border-bottom: 5px solid white;
+}
+
+#plane{
+display:block;
+position: relative;
+width:15%;
+padding-left: 20px
+}
+
+#plane:hover {
+animation: rotation 1.8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.text1 {
+padding-left: 800px
+}
+
+#store{
+display:block;
+position: relative;
+width:20%;
+margin-left: 820px;
+margin-top:-240px
+}
+
+#store:hover {
+    transform:scale(1.5);
+}
+
+.text2{
+padding-top: 400px
+}
+
+#tech{
+display:block;
+position: relative;
+width:20%;
+margin-left: 40px;
+}
+
+#tech:hover {
+    transition-delay: 0.2s;
+    transform: translate(700px, -200px);
+}
+
+.black-border {
+  background-color: black;
+  color:black;
+  margin-top:-20px
+}
+
+#head {
+margin-left: 20px
+}
+
+#wrapper{
+display:grid;
+margin-top:40px;
+margin-left: 220px;
+margin-right:220px;
+margin-bottom:-210px;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 300px 300px 300px;
+grid-gap: 28px;
+position:relative;
+}
+
+#meme1{
+grid-column-start:1;
+grid-column-end:2;
+}
+#meme2{
+grid-column-start:2;
+grid-column-end:2;
+}
+#meme3{
+grid-column-start:3;
+grid-column-end:4;
+}
+#meme4{
+grid-column-start:1;
+grid-column-end:2;
+grid-row-start:2;
+grid-row-end:3;
+margin-top:120px
+}
+#meme5{
+grid-column-start:2;
+grid-column-end:3;
+grid-row-start:2;
+grid-row-end:3;
+margin-top:40px
+}
+#meme6{
+grid-column-start:3;
+grid-column-end:4;
+grid-row-start:2;
+grid-row-end:3;
+margin-top:60px;
+}
+
+.gray{
+color: gray;
+}
+
+.light-blue{
+color:#3291a8;
+}
+
+#secret{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer; 
+}
+
+#secret:hover {
+  background-color: #778899;
+  color: black;
+  transition-duration: 0.4s;
+}
